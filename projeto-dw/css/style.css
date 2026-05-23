@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #EBAD04;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#menu{
+    display: flex;
+    gap: 10px; 
+}
+
+#menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 20px;
+    border-bottom: solid 3px transparent;
+}
+
+#menu a:hover{
+    border-bottom: solid 3px #FEC400;
+    transition: border 0.7s ease;
+}
+
+#search{
+    display: flex;
+
+}
+
+#search input{
+    background-color: #FFC603;
+    font-size: 18px;
+    padding: 10px;
+    color: #000;
+    outline: none;
+}
+
+#search input:focus{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#search span{
+    background-color: rgb(64, 176, 255);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#capa{
+    background-color: #FEC400;
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#texto{
+    width: 50%;
+}
+
+#texto h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+#texto p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#botoes{
+    display: flex;
+    gap: 20px;
+}
+
+#primario{
+    background-color: rgb(64, 176, 255);
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+     border: solid 3px rgb(64, 176, 255);
+}
+
+#primario:hover{
+    background-color: rgb(52, 143, 208);
+    border: solid 3px rgb(52, 143, 208);
+    transition: all 0.5s ease;
+}
+
+#secundario{
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: solid 3px #fff;
+}
+
+#secundario:hover{
+    background-color: #fff;
+    border: solid 3px #dedede;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+#imagem{
+    width: 50%;
+}
+
+#imagem img{
+    width: 90%;
+}
+
+#capa-video{
+    background-color: #ffffff;
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#capa-video #texto h1{
+    color: #000;
+}
+
+#capa-video #texto p{
+    color: #000;
+}
+
+#capa-video #primario{
+    background-color: #FEC400;
+    border: #FEC400;
+
+}
