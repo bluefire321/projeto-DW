@@ -168,7 +168,6 @@
 #texto-banner{
     display: flex;
     flex-direction: column;
-    border: solid 2px white;
     width: 250px;
 }
 
@@ -181,8 +180,8 @@
 #texto-banner p{
     color: white;
     font-size: 18px;
-    margin-bottom: 25px;
-    line-height: 1.5;
+    margin-bottom:15px;
+    line-height: 1.8;
 }
 
 #button-banner{
@@ -196,41 +195,66 @@
     padding: 10px;
     background-color: #EBAD04;
     border-radius: 30px;
+    display: flex;
 }
 
 #menu-banner{
-    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
 }
 
 #menu-banner h1{
     color: #EBAD04;
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 #menu-banner a{
     text-decoration: none;
     color: white;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 #info-banner{
     display: flex;
     flex-direction: column;
-    border: solid 2px white;
 }
 
 #info-banner h1{
     color: #EBAD04;
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 #info-banner p{
     line-height: 2.5;
     color: white;
+}
+
+#local-banner{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px 0px 0px;
+}
+
+#local-banner h1{
+    color: #EBAD04;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#local-banner p{
+    color: white;
+    line-height: 1.8;
+}
+
+#local-banner button{
+    padding: 10px;
+    background-color: #EBAD04;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 #direitos{
