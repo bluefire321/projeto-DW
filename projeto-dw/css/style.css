@@ -61,6 +61,10 @@
     cursor: pointer;
 }
 
+#search span:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 #capa{
     background-color: #FEC400;
     padding: 60px 100px;
@@ -150,4 +154,112 @@
     background-color: #FEC400;
     border: #FEC400;
 
+}
+
+/* BANNER */
+
+#banner{
+    background-color: rgb(49, 30, 12);
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+#texto-banner{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+#texto-banner h1{
+    color: #EBAD04;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#texto-banner p{
+    color: white;
+    font-size: 18px;
+    margin-bottom:15px;
+    line-height: 1.8;
+}
+
+#button-banner{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#button-banner button{
+    padding: 10px;
+    background-color: #EBAD04;
+    border-radius: 30px;
+    display: flex;
+}
+
+#menu-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-banner h1{
+    color: #EBAD04;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#menu-banner a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+}
+
+#info-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+#info-banner h1{
+    color: #EBAD04;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#info-banner p{
+    line-height: 2.5;
+    color: white;
+}
+
+#local-banner{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px 0px 0px;
+}
+
+#local-banner h1{
+    color: #EBAD04;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#local-banner p{
+    color: white;
+    line-height: 1.8;
+}
+
+#local-banner button{
+    padding: 10px;
+    background-color: #EBAD04;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#direitos{
+    background-color: rgb(21, 13, 5);
+    text-align: center;
+    padding: 20px 100px;
+    color: white;
 }
