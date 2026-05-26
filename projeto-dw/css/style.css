@@ -156,6 +156,104 @@
 
 }
 
+
+#historico{
+    background-color: rgb(254, 196, 0);
+    padding: 60px 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    /* Coloca um fundo feito de imagens */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHR6MoJh6RBf7tk35c5NZJxUMQJTvhFX1Qaw&s');
+    background-position: center;
+    position: relative;
+}
+
+#historico::before{
+    /* define o nível, o plano de um elemento, a camada do elemento */
+    z-index: 1;
+    background-color:  rgba(254, 196, 0, 0.9);
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-historico{
+    font-size: 24px;
+    text-align: center;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#services{
+    padding: 60px 100px;
+    text-align: center;
+}
+
+#services h1{
+    font-size: 45px;
+}
+
+#services p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#cards-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.services-pet{
+    background-color: rgb(231, 231, 231);
+    border-radius: 8px;
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+}
+
+#cards-services .services-pet h1{
+    font-size: 20px;
+}
+
+#cards-services .services-pet #price{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(10, 164, 164);
+}
+
+#cards-services .services-pet button{
+    background-color: rgb(10, 164, 164);
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+/* DIV */
+#image{
+    overflow: hidden;
+    height: 200px;
+}
+
+/* A propria imagem */
+#image img{
+    width: 100%;
+    height: 100%;
+}
+
 /* BANNER */
 
 #banner{
