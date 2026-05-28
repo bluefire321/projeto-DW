@@ -127,11 +127,12 @@
 }
 
 #imagem{
-    width: 50%;
+    width: 200px;
 }
 
 #imagem img{
-    width: 90%;
+    width: 500px;
+    display: flex;
 }
 
 #capa-video{
@@ -366,7 +367,6 @@
 
 #button-banner{
     display: flex;
-    justify-content: flex-start;
     gap: 10px;
     flex-wrap: wrap;
 }
@@ -374,7 +374,7 @@
 #button-banner button{
     padding: 10px;
     background-color: #f40b39;
-    border-radius: 30px;
+    border-radius: 50%;
     display: flex;
 }
 
@@ -393,6 +393,12 @@
     text-decoration: none;
     color: white;
     line-height: 1.8;
+}
+
+#menu-banner a:hover{
+    border-bottom: solid 3px #f40b39;
+    transition: border 0.7s ease;
+    width: 80px;
 }
 
 #info-banner{
