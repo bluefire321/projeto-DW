@@ -135,7 +135,7 @@
 }
 
 #capa-video{
-    background-color: #ecda9e;
+    background-color: #ecda9
     padding: 60px 100px;
     display: flex;
     align-items: center;
@@ -161,19 +161,6 @@
     transition: all 0.5s ease;
     background-color: rgb(224, 175, 14);
 }
-
-.card-historico{
-    font-size: 24px;
-    text-align: center;
-    height: 200px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-}
-
 #services{
     padding: 60px 100px;
     text-align: center;
@@ -240,7 +227,6 @@
     width: 100%;
     height: 100%;
 }
-
 /* BANNER */
 
 #banner{
@@ -357,4 +343,3 @@
     text-align: center;
     padding: 20px 100px;
     color: white;
-}
