@@ -7,7 +7,7 @@
 }
 
 #header{
-    background-color: #fff;
+    background-color: #291b24;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +33,7 @@
 }
 
 #menu a:hover{
-    border-bottom: solid 3px #FEC400;
+    border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
 }
 
@@ -43,7 +43,7 @@
 }
 
 #search input{
-    background-color: #FFC603;
+    background-color: #f40b39;
     font-size: 18px;
     padding: 10px;
     color: #000;
@@ -55,7 +55,7 @@
 }
 
 #search span{
-    background-color: rgb(64, 176, 255);
+    background-color: #557f98;
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -66,7 +66,7 @@
 }
 
 #capa{
-    background-color: #FEC400;
+    background-color: #f40b39;
     padding: 60px 100px;
     display: flex;
     align-items: center;
@@ -94,33 +94,33 @@
 }
 
 #primario{
-    background-color: rgb(64, 176, 255);
+    background-color: #557f98;
     color: #fff;
     font-size: 24px;
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-    border: solid 3px rgb(64, 176, 255);
+    border: solid 3px #557f98;
 }
 
 #primario:hover{
-    background-color: rgb(52, 143, 208);
-    border: solid 3px rgb(52, 143, 208);
+    background-color: #3c596a;
+    border: solid 3px #3c596a;
     transition: all 0.5s ease;
 }
 
 #secundario{
     background-color: transparent;
-    color: #fff;
+    color: #f1efef;
     font-size: 24px;
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-    border: solid 3px #fff;
+    border: solid 3px #f1efef;
 }
 
 #secundario:hover{
-    background-color: #fff;
+    background-color: #f1efef;
     border: solid 3px #dedede;
     color: #000;
     transition: all 0.5s ease;
@@ -151,20 +151,20 @@
 }
 
 #capa-video #primario{
-    background-color: #FEC400;
-    border: #FEC400;
+    background-color: #f40b39;
+    border: #f40b39;
 }
 
 #capa-video #primario:hover{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
-    background-color: rgb(224, 175, 14);
+    background-color: #f40b39;
 }
 
 
 #historico{
-    background-color: rgb(254, 196, 0);
+    background-color: #f40b39;
     padding: 60px 100px;
     display: flex;
     gap: 40px;
@@ -179,7 +179,7 @@
 #historico::before{
     /* define o nível, o plano de um elemento, a camada do elemento */
     z-index: 1;
-    background-color:  rgba(254, 196, 0, 0.9);
+    background-color:  rgba(244, 11, 57, 0.9);
     content:'';
     position: absolute;
     top: 0;
@@ -237,11 +237,11 @@
 #cards-services .services-pet #price{
     font-size: 25px;
     font-weight: bold;
-    color: rgb(10, 164, 164);
+    color: #557f98;
 }
 
 #cards-services .services-pet button{
-    background-color: rgb(10, 164, 164);
+    background-color: #557f98;
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 8px;
@@ -252,7 +252,7 @@
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
-    background-color: rgb(10, 145, 145);
+    background-color: #3c596a;
 }
 
 /* DIV */
@@ -269,7 +269,7 @@
 
 /* EQUIPE */
 #equipe{
-    background-color: #FEC400;
+    background-color: #f40b39;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,7 +317,7 @@
 }
 
 #cards-equipe .image-equipe p{
-    color: #FEC400;
+    color: #f40b39;
     text-align: center;
     font-size: 25px;
 }
@@ -338,7 +338,7 @@
 /* BANNER */
 
 #banner{
-    background-color: rgb(49, 30, 12);
+    background-color: #291b24;
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
@@ -352,7 +352,7 @@
 }
 
 #texto-banner h1{
-    color: #EBAD04;
+    color: #f40b39;
     font-size: 35px;
     margin-bottom: 20px;
 }
@@ -373,7 +373,7 @@
 
 #button-banner button{
     padding: 10px;
-    background-color: #EBAD04;
+    background-color: #f40b39;
     border-radius: 30px;
     display: flex;
 }
@@ -384,7 +384,7 @@
 }
 
 #menu-banner h1{
-    color: #EBAD04;
+    color: #f40b39;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -401,7 +401,7 @@
 }
 
 #info-banner h1{
-    color: #EBAD04;
+    color: #f40b39;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -418,7 +418,7 @@
 }
 
 #local-banner h1{
-    color: #EBAD04;
+    color: #f40b39;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -430,7 +430,7 @@
 
 #local-banner button{
     padding: 10px;
-    background-color: #EBAD04;
+    background-color: #f40b39;
     border-radius: 10px;
     width: 70%;
     margin-top: 20px;
@@ -441,13 +441,13 @@
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.5s ease;
-    background-color: rgb(209, 158, 16);
+    background-color: #c20829;
 }
 
 /* DIREITOS */
 
 #direitos{
-    background-color: rgb(21, 13, 5);
+    background-color: #1c1319;
     text-align: center;
     padding: 20px 100px;
     color: white;
