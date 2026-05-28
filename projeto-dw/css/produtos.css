@@ -33,7 +33,7 @@
 }
 
 #menu a:hover{
-    border-bottom: solid 3px #f40b39;
+    border-bottom: solid 3px #ce2245;
     transition: border 0.7s ease;
 }
 
@@ -62,7 +62,7 @@
 }
 
 #search span:hover{
-    box-shadow: #291b24 0px -23px 25px 0px inset, #291b24 0px -36px 30px 0px inset, #291b24 0px -79px 40px 0px inset, #291b24 0px 2px 1px, #291b24 0px 4px 2px, #291b24 0px 8px 4px, #291b24 0px 16px 8px, #291b24 0px 32px 16px;
+    box-shadow: hsl(202, 53%, 60%) 0px -23px 25px 0px inset, hsl(202, 53%, 60%) -36px 30px 0px inset, hsl(202, 53%, 60%) 0px -79px 40px 0px inset, hsl(202, 53%, 60%) 0px 2px 1px, hsl(202, 53%, 60%) 0px 4px 2px, hsl(202, 53%, 60%) 0px 8px 4px, hsl(202, 53%, 60%) 0px 16px 8px, hsl(202, 53%, 60%) 0px 32px 16px;
 }
 
 #capa{
@@ -104,8 +104,8 @@
 }
 
 #primario:hover{
-    background-color: #557f98;
-    border: solid 3px #557f98;
+    background-color: #62a2c7;
+    border: solid 3px #62a2c7;
     transition: all 0.5s ease;
 }
 
@@ -140,7 +140,7 @@
 
 #capa-video #primario:hover{
     cursor: pointer;
-    box-shadow: #291b24 1.95px 1.95px 2.6px;
+    box-shadow: #1c1319 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
     background-color: #f40b39;
 }
@@ -194,7 +194,7 @@
 
 #cards-services .services-pet button:hover{
     cursor: pointer;
-    box-shadow: #291b24 1.95px 1.95px 2.6px;
+    box-shadow: #1c1319 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
     background-color: #557f98;
 }
@@ -202,7 +202,7 @@
 /* DIV */
 #image{
     overflow: hidden;
-    height: 200px;
+    height: 280px;
 }
 
 /* A propria imagem */
@@ -322,7 +322,7 @@
 /* DIREITOS */
 
 #direitos{
-    background-color: #291b24;
+    background-color: #1c1319;
     text-align: center;
     padding: 20px 100px;
     color: white;
