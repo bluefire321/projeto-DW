@@ -7,7 +7,7 @@
 }
 
 #header{
-    background-color: #EBAD04;
+    background-color: #291b24;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,7 +25,7 @@
 }
 
 #menu a{
-    color: #fff;
+    color: #f1efef;
     text-decoration: none;
     font-size: 24px;
     padding: 5px 20px;
@@ -33,7 +33,7 @@
 }
 
 #menu a:hover{
-    border-bottom: solid 3px #FEC400;
+    border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
 }
 
@@ -43,7 +43,7 @@
 }
 
 #search input{
-    background-color: #FFC603;
+    background-color: #F40B39;
     font-size: 18px;
     padding: 10px;
     color: #000;
@@ -51,22 +51,22 @@
 }
 
 #search input:focus{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: #291b24 0px 6px 12px -2px, #291b24 0px 3px 7px -3px;
 }
 
 #search span{
-    background-color: rgb(64, 176, 255);
-    color: #fff;
+    background-color: #557f98;
+    color: #f1efef;
     padding: 10px;
     cursor: pointer;
 }
 
 #search span:hover{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: #291b24 0px -23px 25px 0px inset, #291b24 0px -36px 30px 0px inset, #291b24 0px -79px 40px 0px inset, #291b24 0px 2px 1px, #291b24 0px 4px 2px, #291b24 0px 8px 4px, #291b24 0px 16px 8px, #291b24 0px 32px 16px;
 }
 
 #capa{
-    background-color: #FEC400;
+    background-color: #F40B39;
     padding: 60px 100px;
     display: flex;
     align-items: center;
@@ -78,13 +78,13 @@
 }
 
 #texto h1{
-    color: #fff;
+    color: #f1efef;
     font-size: 45px;
     margin-bottom: 50px;
 }
 
 #texto p{
-    color: #fff;
+    color: #f1efef;
     font-size: 20px;
     margin-bottom: 50px;
 }
@@ -94,35 +94,18 @@
 }
 
 #primario{
-    background-color: rgb(64, 176, 255);
-    color: #fff;
+    background-color: #557f98;
+    color: #f1efef;
     font-size: 24px;
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
-    border: solid 3px rgb(64, 176, 255);
+    border: solid 3px #557f98;
 }
 
 #primario:hover{
-    background-color: rgb(52, 143, 208);
-    border: solid 3px rgb(52, 143, 208);
-    transition: all 0.5s ease;
-}
-
-#secundario{
-    background-color: transparent;
-    color: #fff;
-    font-size: 24px;
-    padding: 10px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    border: solid 3px #fff;
-}
-
-#secundario:hover{
-    background-color: #fff;
-    border: solid 3px #dedede;
-    color: #000;
+    background-color: #557f98;
+    border: solid 3px #557f98;
     transition: all 0.5s ease;
 }
 
@@ -135,7 +118,7 @@
 }
 
 #capa-video{
-    background-color: #fff2c8;
+    background-color: #fd8da3;
     padding: 60px 100px;
     display: flex;
     align-items: center;
@@ -151,15 +134,15 @@
 }
 
 #capa-video #primario{
-    background-color: #FEC400;
-    border: #FEC400;
+    background-color: #f40b39;
+    border: #f40b39;
 }
 
 #capa-video #primario:hover{
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: #291b24 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
-    background-color: rgb(224, 175, 14);
+    background-color: #f40b39;
 }
 #services{
     padding: 60px 100px;
@@ -184,7 +167,7 @@
 }
 
 .services-pet{
-    background-color: rgb(231, 231, 231);
+    background-color: #f1efef;
     border-radius: 8px;
     width: 350px;
     text-align: left;
@@ -198,22 +181,22 @@
 #cards-services .services-pet #price{
     font-size: 25px;
     font-weight: bold;
-    color: rgb(10, 164, 164);
+    color: #557f98;
 }
 
 #cards-services .services-pet button{
-    background-color: rgb(10, 164, 164);
+    background-color: #557f98;
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 8px;
-    color: white;
+    color: #f1efef;
 }
 
 #cards-services .services-pet button:hover{
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: #291b24 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
-    background-color: rgb(10, 145, 145);
+    background-color: #557f98;
 }
 
 /* DIV */
@@ -230,7 +213,7 @@
 /* BANNER */
 
 #banner{
-    background-color: rgb(49, 30, 12);
+    background-color: #291b24;
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
@@ -244,13 +227,13 @@
 }
 
 #texto-banner h1{
-    color: #EBAD04;
+    color: #F40B39;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 #texto-banner p{
-    color: white;
+    color: #f1efef;
     font-size: 18px;
     margin-bottom:15px;
     line-height: 1.8;
@@ -265,7 +248,7 @@
 
 #button-banner button{
     padding: 10px;
-    background-color: #EBAD04;
+    background-color: #F40B39;
     border-radius: 30px;
     display: flex;
 }
@@ -276,14 +259,14 @@
 }
 
 #menu-banner h1{
-    color: #EBAD04;
+    color:#F40B39;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 #menu-banner a{
     text-decoration: none;
-    color: white;
+    color: #f1efef;
     line-height: 1.8;
 }
 
@@ -293,14 +276,14 @@
 }
 
 #info-banner h1{
-    color: #EBAD04;
+    color: #F40B39;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 #info-banner p{
     line-height: 2.5;
-    color: white;
+    color: #f1efef;
 }
 
 #local-banner{
@@ -310,19 +293,19 @@
 }
 
 #local-banner h1{
-    color: #EBAD04;
+    color: #F40B39;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 #local-banner p{
-    color: white;
+    color: #f1efef;
     line-height: 1.8;
 }
 
 #local-banner button{
     padding: 10px;
-    background-color: #EBAD04;
+    background-color: #F40B39;
     border-radius: 10px;
     width: 70%;
     margin-top: 20px;
@@ -331,15 +314,15 @@
 
 #banner button:hover{
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: #291b24 0px 5px 15px;
     transition: all 0.5s ease;
-    background-color: rgb(209, 158, 16);
+    background-color: #f40b39;
 }
 
 /* DIREITOS */
 
 #direitos{
-    background-color: rgb(21, 13, 5);
+    background-color: #291b24;
     text-align: center;
     padding: 20px 100px;
     color: white;
