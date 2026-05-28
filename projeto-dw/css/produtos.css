@@ -135,7 +135,7 @@
 }
 
 #capa-video{
-    background-color: #ecda9
+    background-color: #fff2c8;
     padding: 60px 100px;
     display: flex;
     align-items: center;
@@ -343,3 +343,4 @@
     text-align: center;
     padding: 20px 100px;
     color: white;
+}
