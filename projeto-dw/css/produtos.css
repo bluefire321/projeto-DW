@@ -227,29 +227,32 @@
 }
 
 #texto-banner h1{
-    color: #F40B39;
+    color: #f40b39;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
 #texto-banner p{
-    color: #f1efef;
+    color: white;
     font-size: 18px;
     margin-bottom:15px;
     line-height: 1.8;
 }
 
+/* mudei aqui */
+
 #button-banner{
     display: flex;
-    justify-content: flex-start;
     gap: 10px;
     flex-wrap: wrap;
 }
 
+/* mudei aqui */
+
 #button-banner button{
     padding: 10px;
-    background-color: #F40B39;
-    border-radius: 30px;
+    background-color: #f40b39;
+    border-radius: 50%;
     display: flex;
 }
 
@@ -259,15 +262,23 @@
 }
 
 #menu-banner h1{
-    color:#F40B39;
+    color: #f40b39;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 #menu-banner a{
     text-decoration: none;
-    color: #f1efef;
+    color: white;
     line-height: 1.8;
+}
+
+/* mudei aqui */
+
+#menu-banner a:hover{
+    border-bottom: solid 3px #f40b39;
+    transition: border 0.7s ease;
+    width: 80px;
 }
 
 #info-banner{
@@ -276,36 +287,36 @@
 }
 
 #info-banner h1{
-    color: #F40B39;
+    color: #f40b39;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 #info-banner p{
     line-height: 2.5;
-    color: #f1efef;
+    color: white;
 }
 
 #local-banner{
     display: flex;
     flex-direction: column;
-    padding: 0px 200px 0px 0px;
+    padding: 0px 100px 0px 0px;
 }
 
 #local-banner h1{
-    color: #F40B39;
+    color: #f40b39;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 #local-banner p{
-    color: #f1efef;
+    color: white;
     line-height: 1.8;
 }
 
 #local-banner button{
     padding: 10px;
-    background-color: #F40B39;
+    background-color: #f40b39;
     border-radius: 10px;
     width: 70%;
     margin-top: 20px;
@@ -314,10 +325,11 @@
 
 #banner button:hover{
     cursor: pointer;
-    box-shadow: #291b24 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.5s ease;
-    background-color: #f40b39;
+    background-color: #c20829;
 }
+
 
 /* DIREITOS */
 
