@@ -67,7 +67,7 @@
 
 #capa{
     background-color: #f40b39;
-    padding: 60px 100px;
+    padding: 0px 100px 0px 100px;
     display: flex;
     align-items: center;
     gap: 50px;
@@ -126,9 +126,13 @@
     transition: all 0.5s ease;
 }
 
+/* mudei aqui */
+
 #imagem{
     width: 200px;
 }
+
+/* mudei aqui */
 
 #imagem img{
     width: 500px;
@@ -270,7 +274,7 @@
 
 /* EQUIPE */
 #equipe{
-    background-color: #f40b39;
+    background-color: #FD8DA3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,11 +318,11 @@
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
-    border: solid 3px rgb(10, 145, 145);
+    border: solid 3px #f40b39;
 }
 
 #cards-equipe .image-equipe p{
-    color: #f40b39;
+    color: #291B24;
     text-align: center;
     font-size: 25px;
 }
@@ -365,11 +369,15 @@
     line-height: 1.8;
 }
 
+/* mudei aqui */
+
 #button-banner{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
+
+/* mudei aqui */
 
 #button-banner button{
     padding: 10px;
@@ -394,6 +402,8 @@
     color: white;
     line-height: 1.8;
 }
+
+/* mudei aqui */
 
 #menu-banner a:hover{
     border-bottom: solid 3px #f40b39;
@@ -420,7 +430,7 @@
 #local-banner{
     display: flex;
     flex-direction: column;
-    padding: 0px 200px 0px 0px;
+    padding: 0px 100px 0px 0px;
 }
 
 #local-banner h1{
