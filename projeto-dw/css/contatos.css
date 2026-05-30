@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #291b24;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#menu{
+    display: flex;
+    gap: 10px; 
+}
+
+#menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 20px;
+    border-bottom: solid 3px transparent;
+}
+
+#menu a:hover{
+    border-bottom: solid 3px #f40b39;
+    transition: border 0.7s ease;
+}
+
+#search{
+    display: flex;
+
+}
+
+#search input{
+    background-color: #f40b39;
+    font-size: 18px;
+    padding: 10px;
+    color: #000;
+    outline: none;
+}
+
+#search input:focus{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#search span{
+    background-color: #557f98;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#search span:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+/* CONTATOS */
+#contato{
+    display: flex;
+    flex-wrap: wrap;
+}
+#talk{
+    width: 100%;
+    margin: 50px 100px;
+}
+
+#talk h1{
+    margin-bottom: 35px;
+    font-size: 60px;
+    width: 500px;
+}
+#talk p{
+    width: 580px;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+#talk button{
+    font-size: 15px;
+    background-color: #f40b39;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+#talk button:hover{
+    background-color: #960a26;
+    transition: all 0.5s ease;
+}
+
+#send{
+    flex: 2;
+    margin-left: 100px;
+}
+#send h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#send p{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+#send label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#name, #email, #assunto{
+    border: #949494 solid 1px ;
+    border-radius: 5px;
+    height: 35px;
+    width: 700px;
+    padding: 10px;
+    display: block;
+    outline: none;
+    margin: 10px 0px;
+}
+#mensagem{
+    border: 1px solid #949494;
+    border-radius: 5px;
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    outline: none;
+    resize: none;
+}
+#botao{
+    width: 700px;
+    background-color: #f40b39;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#botao:hover{
+    background-color: #960a26;
+    transition: all 0.5s ease;
+}
+
+#boxs{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 100px;
+    
+}
+#box1,#box2,#box3,#box4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #949494; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+}
+#box1 span,#box2 span,#box3 span,#box4 span{
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f40b39;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+.texto h3{
+    margin-bottom: 5px;
+}
+
+.texto p{
+    color: #444;
+}
+
+#locate{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+#locate h2{
+
+}
+#locate p{
+
+}
+#locate button{
+
+}
+#mapa{
+
+}
+
+/* BANNER */
+
+#banner{
+    background-color: #291b24;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#texto-banner{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+#texto-banner h1{
+    color: #f40b39;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#texto-banner p{
+    color: white;
+    font-size: 18px;
+    margin-bottom:15px;
+    line-height: 1.8;
+}
+
+/* mudei aqui */
+
+#button-banner{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* mudei aqui */
+
+#button-banner button{
+    padding: 10px;
+    background-color: #f40b39;
+    border-radius: 50%;
+    display: flex;
+}
+
+#menu-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-banner h1{
+    color: #f40b39;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#menu-banner a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.8;
+}
+
+/* mudei aqui */
+
+#menu-banner a:hover{
+    border-bottom: solid 3px #f40b39;
+    transition: border 0.7s ease;
+    width: 80px;
+}
+
+#info-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+#info-banner h1{
+    color: #f40b39;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#info-banner p{
+    line-height: 2.5;
+    color: white;
+}
+
+#local-banner{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px 0px 0px;
+}
+
+#local-banner h1{
+    color: #f40b39;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#local-banner p{
+    color: white;
+    line-height: 1.8;
+}
+
+#local-banner button{
+    padding: 10px;
+    background-color: #f40b39;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#banner button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
+    background-color: #c20829;
+}
+
+/* DIREITOS */
+
+#direitos{
+    background-color: #1c1319;
+    text-align: center;
+    padding: 20px 100px;
+    color: white;
+}
