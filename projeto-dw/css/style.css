@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-#header{
+header{
     background-color: #291b24;
     display: flex;
     flex-direction: row;
@@ -19,12 +19,18 @@
     width: 150px;
 }
 
-#menu{
+nav{
     display: flex;
     gap: 10px; 
 }
 
-#menu a{
+hr{
+    margin-top: 10px;
+    border: solid 1px #f40b39;
+    background-color: #f40b39;
+}
+
+nav a{
     color: #fff;
     text-decoration: none;
     font-size: 24px;
@@ -126,16 +132,12 @@
     transition: all 0.5s ease;
 }
 
-/* mudei aqui */
-
 #imagem{
     width: 200px;
 }
 
-/* mudei aqui */
-
 #imagem img{
-    width: 500px;
+    width: 800px;
     display: flex;
 }
 
@@ -342,12 +344,23 @@
 
 /* BANNER */
 
-#banner{
+footer{
     background-color: #291b24;
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+footer h1{
+    color: #f40b39;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: white;
+    line-height: 1.8;
 }
 
 #texto-banner{
@@ -369,15 +382,11 @@
     line-height: 1.8;
 }
 
-/* mudei aqui */
-
 #button-banner{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
-
-/* mudei aqui */
 
 #button-banner button{
     padding: 10px;
@@ -386,62 +395,29 @@
     display: flex;
 }
 
-#menu-banner{
+#footer-nav{
     display: flex;
     flex-direction: column;
+    gap: 1px;
 }
 
-#menu-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#menu-banner a{
+#footer-nav a{
     text-decoration: none;
     color: white;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
-/* mudei aqui */
-
-#menu-banner a:hover{
+#footer-nav a:hover{
     border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
-    width: 80px;
-}
-
-#info-banner{
-    display: flex;
-    flex-direction: column;
-}
-
-#info-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#info-banner p{
-    line-height: 2.5;
-    color: white;
+    width: 100px;
 }
 
 #local-banner{
     display: flex;
     flex-direction: column;
     padding: 0px 100px 0px 0px;
-}
-
-#local-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#local-banner p{
-    color: white;
-    line-height: 1.8;
 }
 
 #local-banner button{
@@ -460,11 +436,9 @@
     background-color: #c20829;
 }
 
-/* DIREITOS */
-
 #direitos{
     background-color: #1c1319;
-    text-align: center;
     padding: 20px 100px;
     color: white;
+    text-align: center;
 }
