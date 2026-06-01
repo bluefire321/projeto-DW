@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/prova-p2-dw/css/contatos.css">
+    <title>Força e Fitness - Produtos</title>
+    <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+
+  
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="icon" href="../img/logo.png" type="image/png">
-    <title>Contatos</title>
 </head>
 <body>
-     <!-- HEADER -->
+    <!-- HEADER -->
     <div id="header">
         <img id="logo" src="../img/logo.png" alt="">
 
@@ -26,120 +29,297 @@
             </span>
         </div>
     </div>
-    <!-- CONTATOS -->
-    <div id="contato">
-        <div id="talk">
-            <h1>Fale com a  FitNova!</h1>
-            <p>Tem dúvidas, sugestões ou quer fazer um pedido? Nossa equipe está pronta para ajudar você.</p>
-            <button>Entrar em contato!</button>
-        </div>
-        <div id="send">
-            <h2>Envie sua mensagem</h2>
-            <p>Preencha o formulário abaixo e responderemos o mais rápido possível.</p>
-            <label for="name">Nome</label>
-            <input type="text" id="name" placeholder="Digite seu nome" name="nome" required>
-            
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required>
 
-            <label for="assunto">Assunto</label>
-            <input type="text" id="assunto" placeholder="Digite o assunto" name="assunto" required>
-            
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem" required></textarea>
-
-            <button id="botao">Enviar Mensagem</button>
+    <!-- CAPA -->
+    <div id="capa">
+        <div id="texto">
+        <h1>Acesse nossos produtos e descubra o estilo que você tanto busca!</h1>
+            <p>Temos roupas que atendem às necessidades dos mais diversos tipos de praticantes.</p>
         </div>
-        <div id="boxs">
-            <div id="box1">
-                <span class="material-symbols-outlined">
-                    phone_enabled
-                </span>
-                <div class="texto">
-                    <h3>Telefone</h3>
-                    <p>(92) 994330848</p>
+    </div>
+    <hr style="border: 0; height: 1px; background: #f40b39; margin: 20px 0;">
+    <!--PRODUTOS-->
+    <div id="services">
+        <h1>Veja nossas peças mais vendidas!</h1>
+        <div id="cards-services">
+            <div class="services-pet">
+                <div id="image-services">
+                    <div id="image">
+                        <img src="../img/roupa1.webp" alt="">
+                    </div>
+                    <h1>BLUSA BÁSICA LEVE PRETA COM DETALHE BRANCO</h1>
+                    <p id="price"><s>R$ 54,99</s>|R$ 44,54</p>
+                    <p> R$ 49,49 em 6x de R$ 8,25 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+         </div>
+        <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa2.webp" alt="">
+                    </div>
+                    <h1>CONJUNTO TOP E SHORT AMARELO E PRETO</h1>
+                    <p id="price">R$ 83,51</p>
+                    <P>R$ 92,79 em 6x de R$ 15,46 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+        </div>
+        <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa3.webp" alt="">
+                    </div>
+                    <h1>BLUSA MANGA LONGA PRETO</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+        </div>
+             <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa4.webp" alt="">
+                    </div>
+                    <h1>BLUSA BÁSICA LEVE MAGENTA</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <button>Ver mais</button>
                 </div>
             </div>
-            
-            <div id="box2" >
-                <span class="material-symbols-outlined">
-                mail
-                </span>
-                <div class="texto">
-                    <h3>E-mail</h3>
-                    <p>fitnova@gmail.com</p>
+             <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa5.webp" alt="">
+                    </div>
+                    <h1>TOP E LEGGING AZUL MARINHO PLUS SIZE</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <button>Ver mais</button>
                 </div>
             </div>
-            
-            <div id="box3">
-                <span class="material-symbols-outlined">
-                location_on
-                </span>
-                <div class="texto">
-                    <h3>Endereço</h3>
-                    <p>Rua Beatrice Portinari, 123 - República Manaus - AM</p>
-                </div>
-            </div>
-
-            <div id="box4">
-                <span class="material-symbols-outlined">
-                schedule
-                </span>
-                <div class="texto">
-                    <h3>Horário</h3>
-                    <p>Segunda á Sexta: 9h às 18h</p>
+             <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa6.webp" alt="">
+                    </div>
+                    <h1>TOP E LEGGING PRETA PLUS SIZE</h1>
+                    <p id="price">R$ 83,51</p>
+                    <P>R$ 92,79 em 6x de R$ 15,46 sem juros</p>
+                    <button>Ver mais</button>
                 </div>
             </div>
         </div>
-        <div id="locate">
-            <div id="words">
-                <h2>Onde estamos</h2>
-                <p>Venha conhecer nossa loja física e conhecer nossos produtos.</p>
-                <button>Ver localização</button>
-            </div><div id="mapa" style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/21234/manaus/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Manaus</a><a href="https://yandex.com/maps/21234/manaus/?ll=-59.982250%2C-3.133990&utm_medium=mapframe&utm_source=maps&z=16.73" style="color:#eee;font-size:12px;position:absolute;top:14px;">Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/?ll=-59.982250%2C-3.133990&z=16.73" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </div>
+    <!-- CAPA-IMAGEM -->
+    <div id="capa-video">
+         <div id="imagem">
+            <img src="../img/imageem.webp" alt="">
         </div>
-        <div id="duvida">
-            <div id="perguntas">
-                <h3>Ainda ficou com dúvidas?</h3>
-                <p>Fale com nossa equipe pelo WhatsApp.</p>
-            </div>
-            <button>WhatsApp</button>
+        <div id="texto">
+            <h1>Conheça nosso catálogo</h1>
+            <p>Aqui temos vestimentas de alta qualidade, design moderno e combinando com seu estilo.</p>
+            <p>Acesse nosso catálogo e descubra a moda que você tanto busca!</p>
+            <button id="primario">Catálogo</button>
         </div>
-
+       
     </div>
     <!-- BANNER -->
     <div id="banner">
-    <div id="texto-banner">
-        <h1>FitNova</h1>
-        <p>Vista sua força. Supere seus limites.</p>
-        <div id="button-banner">
-            <button><span class="material-symbols-outlined">photo_camera</span></button>
-            <button><span class="material-symbols-outlined">play_arrow</span></button>
-            <button><span class="material-symbols-outlined">alternate_email</span></button>
+        <div id="texto-banner">
+            <h1>FitNova</h1>
+            <p>Vista sua força. Supere seus limites.</p>
+            <div id="button-banner">
+                <button><span class="material-symbols-outlined">photo_camera</span></button>
+                <button><span class="material-symbols-outlined">play_arrow</span></button>
+                <button><span class="material-symbols-outlined">alternate_email</span></button>
+            </div>
         </div>
-    </div>
 
-    <div id="menu-banner">
-        <h1>Navegação</h1>
-        <a href="index.html">Início</a>
-        <a href="pages/produtos.html">Produtos</a>
-        <a href="pages/contatos.html">Contatos</a>
-    </div>
-    <div id="info-banner">
-        <h1>Atendimento</h1>
-        <p>(92) 994330848</p>
-        <p>fitnova@gmail.com</p>
-        <p>Segunda á Sexta: 9h às 18h</p>
-    </div>
-    <div id="local-banner">
-        <h1>Endereço</h1>
-        <p>Rua Beatrice Portinari, 123 - República</p>
-        <p>Manaus - Amazonas</p>
-        <button>Ver no mapa</button>
-    </div>
+        <div id="menu-banner">
+            <h1>Navegação</h1>
+            <a href="../index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contatos.html">Contatos</a>
+        </div>
+        <div id="info-banner">
+            <h1>Atendimento</h1>
+            <p>(92) 994330848</p>
+            <p>fitnova@gmail.com</p>
+            <p>Segunda á Sexta: 9h às 18h</p>
+        </div>
+        <div id="local-banner">
+            <h1>Endereço</h1>
+            <p>Rua Beatrice Portinari, 123 - República</p>
+            <p>Manaus - Amazonas</p>
+            <button>Ver no mapa</button>
+        </div>
     </div>
     <div id="direitos">
         <p>© 2026 FitNova - Todos os direitos reservados.</p>
     </div>
+
 </body>
+
+</html>a<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Força e Fitness - Produtos</title>
+    <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+
+  
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="header">
+        <img id="logo" src="../img/logo.png" alt="">
+
+        <div id="menu">
+            <a href="../index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contatos.html">Contatos</a>
+        </div>
+
+        <div id="search">
+            <input type="text" name="" id="">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </div>
+    </div>
+
+    <!-- CAPA -->
+    <div id="capa">
+        <div id="texto">
+        <h1>Acesse nossos produtos e descubra o estilo que você tanto busca!</h1>
+            <p>Temos roupas que atendem às necessidades dos mais diversos tipos de praticantes.</p>
+        </div>
+    </div>
+    <hr style="border: 0; height: 1px; background: #f40b39; margin: 20px 0;">
+    <!--PRODUTOS-->
+    <div id="services">
+        <h1>Veja nossas peças mais vendidas!</h1>
+        <div id="cards-services">
+            <div class="services-pet">
+                <div id="image-services">
+                    <div id="image">
+                        <img src="../img/roupa1.webp" alt="">
+                    </div>
+                    <h1>BLUSA BÁSICA LEVE PRETA COM DETALHE BRANCO</h1>
+                    <p id="price"><s>R$ 54,99</s>|R$ 44,54</p>
+                    <p> R$ 49,49 em 6x de R$ 8,25 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+         </div>
+        <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa2.webp" alt="">
+                    </div>
+                    <h1>CONJUNTO TOP E SHORT AMARELO E PRETO</h1>
+                    <p id="price">R$ 83,51</p>
+                    <P>R$ 92,79 em 6x de R$ 15,46 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+        </div>
+        <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa3.webp" alt="">
+                    </div>
+                    <h1>BLUSA MANGA LONGA PRETO</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+        </div>
+             <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa4.webp" alt="">
+                    </div>
+                    <h1>BLUSA BÁSICA LEVE MAGENTA</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+            </div>
+             <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa5.webp" alt="">
+                    </div>
+                    <h1>TOP E LEGGING AZUL MARINHO PLUS SIZE</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+            </div>
+             <div class="services-pet">
+                <div id="image-services">
+                     <div id="image">
+                        <img src="../img/roupa6.webp" alt="">
+                    </div>
+                    <h1>TOP E LEGGING PRETA PLUS SIZE</h1>
+                    <p id="price">R$ 83,51</p>
+                    <P>R$ 92,79 em 6x de R$ 15,46 sem juros</p>
+                    <button>Ver mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CAPA-IMAGEM -->
+    <div id="capa-video">
+         <div id="imagem">
+            <img src="../img/imageem.webp" alt="">
+        </div>
+        <div id="texto">
+            <h1>Conheça nosso catálogo</h1>
+            <p>Aqui temos vestimentas de alta qualidade, design moderno e combinando com seu estilo.</p>
+            <p>Acesse nosso catálogo e descubra a moda que você tanto busca!</p>
+            <button id="primario">Catálogo</button>
+        </div>
+       
+    </div>
+    <!-- BANNER -->
+    <div id="banner">
+        <div id="texto-banner">
+            <h1>FitNova</h1>
+            <p>Vista sua força. Supere seus limites.</p>
+            <div id="button-banner">
+                <button><span class="material-symbols-outlined">photo_camera</span></button>
+                <button><span class="material-symbols-outlined">play_arrow</span></button>
+                <button><span class="material-symbols-outlined">alternate_email</span></button>
+            </div>
+        </div>
+
+        <div id="menu-banner">
+            <h1>Navegação</h1>
+            <a href="../index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contatos.html">Contatos</a>
+        </div>
+        <div id="info-banner">
+            <h1>Atendimento</h1>
+            <p>(92) 994330848</p>
+            <p>fitnova@gmail.com</p>
+            <p>Segunda á Sexta: 9h às 18h</p>
+        </div>
+        <div id="local-banner">
+            <h1>Endereço</h1>
+            <p>Rua Beatrice Portinari, 123 - República</p>
+            <p>Manaus - Amazonas</p>
+            <button>Ver no mapa</button>
+        </div>
+    </div>
+    <div id="direitos">
+        <p>© 2026 FitNova - Todos os direitos reservados.</p>
+    </div>
+
+</body>
+
 </html>
