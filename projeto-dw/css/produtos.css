@@ -117,7 +117,7 @@
     width: 90%;
 }
 
-#capa-ritmo{
+#capa-video{
     background-color: #e25d77;
     padding: 60px 100px;
     display: flex;
@@ -125,20 +125,20 @@
     gap: 50px;
 }
 
-#capa-ritmo #texto h1{
+#capa-video #texto h1{
     color: #000;
 }
 
-#capa-ritmo #texto p{
+#capa-video #texto p{
     color: #000;
 }
 
-#capa-ritmo #primario{
+#capa-video #primario{
     background-color: #f40b39;
     border: #f40b39;
 }
 
-#capa-ritmo #primario:hover{
+#capa-video #primario:hover{
     cursor: pointer;
     box-shadow: #1c1319 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
