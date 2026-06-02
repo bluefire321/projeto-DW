@@ -4,67 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Força e Fitness - Início</title>
+    <title>FitNova - Início</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <!-- HEADER -->
-    <div id="header">
+    <header>
         <img id="logo" src="./img/logo.png" alt="">
 
-        <div id="menu">
+        <nav>
             <a href="index.html">Início</a>
             <a href="pages/produtos.html">Produtos</a>
             <a href="pages/contatos.html">Contatos</a>
-        </div>
+        </nav>
 
         <div id="search">
             <input type="text" name="" id="">
-            <span class="material-symbols-outlined">
-                search
-            </span>
+            <span class="material-symbols-outlined">search</span>
         </div>
-    </div>
+    </header>
 
-<!-- mudei aqui -->
-
+    <main>
+    
     <!-- CAPA -->
-    <div id="capa">
+    <section id="capa">
         <div id="texto">
             <h1>Seu <i>Estilo</i>, Sua <i>Força</i>, Sua <i>Melhor Versão</i></h1>
             <p>Peças desenvolvidas para unir tecnologia, conforto e estilo, valorizando seu desempenho todos os dias.</p>
             <div id="botoes">
                 <a href="pages/contatos.html"><button id="primario">Contate-nos</button></a>
-                <button id="secundario">Saber mais</button>
+                <a href="pages/produtos.html"><button id="secundario">Saber mais</button></a>
             </div>
         </div>
         <div id="imagem">
-            <img src="./img/mulherinicio.png" alt="">
+            <img src="./img/fitness_mulher_invertida.png" alt="">
         </div>
-    </div>
+    </section>
 
-    <!-- CAPA-VIDEO -->
-    <div id="capa-video">
+    <hr>
+
+    <!-- CAPA-RITMO -->
+    <section id="capa-ritmo">
         <div id="texto">
-
-            <!-- mudei aqui -->
-
             <h1>Moda fitness que acompanha seu ritmo.</h1>
             <p>Encontre peças fitness desenvolvidas para oferecer conforto, liberdade e estilo em qualquer treino. Nossa coleção une qualidade, tecnologia e design moderno para acompanhar sua rotina.</p>
-            <button id="primario">Catálogo</button>
+            <a href="pages/produtos.html"><button id="primario">Catálogo</button></a>
         </div>
-        <div id="imagem">
-            <iframe width="100%" height="400" src="https://www.youtube.com/embed/0Q_KFemPumA"
-                title="Wii - Xenoblade Chronicles Trailer" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div id="imagem-ritmo">
+            <img src="./img/strongback.webp" alt="">
         </div>
-    </div>
+    </section>
 
     <!-- Histórico -->
-    <div id="historico">
+    <section id="historico">
         <div class="card-historico">
             <p>+65476547</p>
             <p>Clientes felizes</p>
@@ -77,68 +71,65 @@
             <p>+864654</p>
             <p>Vacinação</p>
         </div>
-    </div>
+    </section>
+
+    <hr>
 
     <!-- Services -->
     <!-- div#services>div.services-per*3 -->
-    <div id="services">
-        <h1>Conheça nosso serviços</h1>
-        <p>Nossos serviços são realizados com os melhores profissionais e os melhores produros do mercado.</p>
+    <section id="services">
+        <h1>Conheça nossos produtos</h1>
+        <p>Nossos produtos são desenvolvidos com os melhores materiais e tecnologia do mercado.</p>
 
         <div id="cards-services">
             <div class="services-pet">
                 <div id="image-services">
                     <div id="image">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogJjiA4TY1qMI_i5TJS5JtUzWvUIWhWovKg&s" alt="">
+                        <img src="./img/roupa1.webp" alt="">
                     </div>
-                    <h1>Banho e Tosa</h1>
-                    <p id="price">R$ 200,00</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quia cupiditate aperiam laudantium
-                        molestiae. Ducimus accusamus vitae unde libero ipsum a voluptatum </p>
-                    <button>Ver mais</button>
+                    <h1>BLUSA BÁSICA LEVE PRETA COM DETALHE BRANCO</h1>
+                    <p id="price"><s>R$ 54,99</s>|R$ 44,54</p>
+                    <p> R$ 49,49 em 6x de R$ 8,25 sem juros</p>
+                    <a href="pages/produtos.html"><button>Ver mais</button></a>
                 </div>
             </div>
             <div class="services-pet">
                 <div id="image-services">
                      <div id="image">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogJjiA4TY1qMI_i5TJS5JtUzWvUIWhWovKg&s" alt="">
+                        <img src="./img/roupa2.webp" alt="">
                     </div>
-                    <h1>Banho e Tosa</h1>
-                    <p id="price">R$ 200,00</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quia cupiditate aperiam laudantium
-                        molestiae. Ducimus accusamus vitae unde libero ipsum a voluptatum </p>
-                    <button>Ver mais</button>
+                    <h1>CONJUNTO TOP E SHORT AMARELO E PRETO</h1>
+                    <p id="price">R$ 83,51</p>
+                    <P>R$ 92,79 em 6x de R$ 15,46 sem juros</p>
+                    <a href="pages/produtos.html"><button>Ver mais</button></a>
                 </div>
             </div>
             <div class="services-pet">
                 <div id="image-services">
                      <div id="image">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogJjiA4TY1qMI_i5TJS5JtUzWvUIWhWovKg&s" alt="">
+                        <img src="./img/roupa3.webp" alt="">
                     </div>
-                    <h1>Banho e Tosa</h1>
-                    <p id="price">R$ 200,00</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quia cupiditate aperiam laudantium
-                        molestiae. Ducimus accusamus vitae unde libero ipsum a voluptatum </p>
-                    <button>Ver mais</button>
+                    <h1>BLUSA MANGA LONGA MASCULINA PRETO</h1>
+                    <p id="price">R$ 59,39</p>
+                    <p>R$ 65,99 em 6x de R$ 11,00 sem juros</p>
+                    <a href="pages/produtos.html"><button>Ver mais</button></a>
                 </div>
             </div>
         </div>
-        </div>
+    </section>
         
-<!-- mudei aqui -->
-
     <!-- Equipe -->
-     <div id="equipe">
+     <section id="equipe">
         <h1>Nossa Equipe</h1>
         <p>Conheça os incríveis profissionais que fazem parte da nossa equipe</p>
         <div id="cards-equipe">
             <div class="image-equipe">
-                <img src="./img/cara.jpg" alt="">
-                <h2>Alexandre Magno</h2>
-                <p>Veterinária</p>
+                <img src="./img/adriel.jpg" alt="">
+                <h2>Adriel Ermelindo</h2>
+                <p>Início</p>
             </div>
             <div class="image-equipe">
-                <img src="./img/cara2.jpg" alt="">
+                <img src="./img/cara.jpg" alt="">
                 <h2>Carlos Lima</h2>
                 <p>Especialista em Animais</p>
             </div>
@@ -148,14 +139,12 @@
                 <p>Cuidados e Vacinação</p>
             </div>
         </div>
-     </div>
+     </section>
 
+     </main>
 
-    <!-- BANNER -->
-    <div id="banner">
-
-        <!-- mudei aqui -->
-
+    <!-- FOOTER -->
+    <footer>
         <div id="texto-banner">
             <h1>FitNova</h1>
             <p>Vista sua força. Supere seus limites.</p>
@@ -166,14 +155,14 @@
             </div>
         </div>
 
-        <div id="menu-banner">
+        <div id="menu-footer">
             <h1>Navegação</h1>
+            <nav id="footer-nav">
             <a href="index.html">Início</a>
             <a href="pages/produtos.html">Produtos</a>
             <a href="pages/contatos.html">Contatos</a>
-        </div>
-
-        <!-- mudei aqui -->
+            </nav>
+            </div>
 
         <div id="info-banner">
             <h1>Atendimento</h1>
@@ -182,21 +171,16 @@
             <p>Segunda à Sexta: 9h às 18h</p>
         </div>
 
-        <!-- mudei aqui -->
-
         <div id="local-banner">
             <h1>Endereço</h1>
             <p>Rua Beatrice Portinari, 123 - República</p>
             <p>Manaus - Amazonas</p>
-            <button>Ver no mapa</button>
+            <a href="pages/contatos.html"><button>Ver no mapa</button></a>
         </div>
-    </div>
 
-    <!-- mudei aqui -->
+    </footer>
 
-    <div id="direitos">
-        <p>© 2026 FitNova - Todos os direitos reservados.</p>
-    </div>
+    <p id="direitos">© 2026 FitNova - Todos os direitos reservados.</p>
 
 </body>
 

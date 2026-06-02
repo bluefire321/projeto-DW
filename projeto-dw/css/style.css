@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-#header{
+/* HEADER */
+
+header{
     background-color: #291b24;
     display: flex;
     flex-direction: row;
@@ -19,12 +21,12 @@
     width: 150px;
 }
 
-#menu{
+nav{
     display: flex;
     gap: 10px; 
 }
 
-#menu a{
+nav a{
     color: #fff;
     text-decoration: none;
     font-size: 24px;
@@ -32,7 +34,7 @@
     border-bottom: solid 3px transparent;
 }
 
-#menu a:hover{
+header a:hover{
     border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
 }
@@ -48,6 +50,7 @@
     padding: 10px;
     color: #000;
     outline: none;
+    border-radius: 40px 0px 0px 40px;
 }
 
 #search input:focus{
@@ -59,11 +62,14 @@
     color: #fff;
     padding: 10px;
     cursor: pointer;
+    border-radius: 0px 40px 40px 0px;
 }
 
 #search span:hover{
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+/* CAPA */
 
 #capa{
     background-color: #f40b39;
@@ -126,20 +132,23 @@
     transition: all 0.5s ease;
 }
 
-/* mudei aqui */
-
 #imagem{
     width: 200px;
 }
 
-/* mudei aqui */
-
 #imagem img{
-    width: 500px;
+    width: 800px;
     display: flex;
 }
 
-#capa-video{
+hr{
+    margin-top: 10px;
+    border: solid 1px #f40b39;
+    background-color: #f40b39;
+}
+/* CAPA-RITMO */
+
+#capa-ritmo{
     background-color: #ffffff;
     padding: 60px 100px;
     display: flex;
@@ -147,24 +156,32 @@
     gap: 50px;
 }
 
-#capa-video #texto h1{
+#capa-ritmo #texto h1{
     color: #000;
 }
 
-#capa-video #texto p{
+#capa-ritmo #texto p{
     color: #000;
 }
 
-#capa-video #primario{
+#capa-ritmo #primario{
     background-color: #f40b39;
     border: #f40b39;
 }
 
-#capa-video #primario:hover{
+#capa-ritmo #primario:hover{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
     background-color: #f40b39;
+}
+
+#imagem-ritmo{
+    width: 500px;
+}
+
+#imagem-ritmo img{
+    border-radius: 8px;
 }
 
 
@@ -176,8 +193,7 @@
     justify-content: space-between;
     align-items: center;
     /* Coloca um fundo feito de imagens */
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHR6MoJh6RBf7tk35c5NZJxUMQJTvhFX1Qaw&s');
-    background-position: center;
+    background-image: url("../img/pesotrans.png");
     position: relative;
 }
 
@@ -228,7 +244,7 @@
 }
 
 .services-pet{
-    background-color: rgb(231, 231, 231);
+    background-color: #9fceea84;
     border-radius: 8px;
     width: 350px;
     text-align: left;
@@ -242,11 +258,11 @@
 #cards-services .services-pet #price{
     font-size: 25px;
     font-weight: bold;
-    color: #557f98;
+    color: #235876;
 }
 
 #cards-services .services-pet button{
-    background-color: #557f98;
+    background-color: #2d7198;
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 8px;
@@ -260,16 +276,17 @@
     background-color: #3c596a;
 }
 
-/* DIV */
 #image{
     overflow: hidden;
-    height: 200px;
+    height: 400px;
 }
 
 /* A propria imagem */
 #image img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* EQUIPE */
@@ -298,8 +315,8 @@
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 50px;
-    flex-wrap: wrap;
         justify-content: center;
+
 }
 
 #cards-equipe .image-equipe{
@@ -311,7 +328,7 @@
     gap: 10px;
     width: 350px;
     border-radius: 8px;
-    border: solid 3px white;
+    border: solid 3px transparent;
 }
 
 #cards-equipe .image-equipe:hover{
@@ -340,14 +357,32 @@
     object-position: center;
 }
 
-/* BANNER */
+/* FOOTER */
 
-#banner{
+footer{
     background-color: #291b24;
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+footer h1{
+    color: #f40b39;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: white;
+    line-height: 1.8;
+}
+
+footer button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
+    background-color: #c20829;
 }
 
 #texto-banner{
@@ -369,15 +404,11 @@
     line-height: 1.8;
 }
 
-/* mudei aqui */
-
 #button-banner{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
-
-/* mudei aqui */
 
 #button-banner button{
     padding: 10px;
@@ -386,62 +417,29 @@
     display: flex;
 }
 
-#menu-banner{
+#footer-nav{
     display: flex;
     flex-direction: column;
 }
 
-#menu-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#menu-banner a{
+#footer-nav a{
     text-decoration: none;
     color: white;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 0px;
 }
 
-/* mudei aqui */
-
-#menu-banner a:hover{
+#footer-nav a:hover{
     border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
     width: 80px;
-}
-
-#info-banner{
-    display: flex;
-    flex-direction: column;
-}
-
-#info-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#info-banner p{
-    line-height: 2.5;
-    color: white;
 }
 
 #local-banner{
     display: flex;
     flex-direction: column;
     padding: 0px 100px 0px 0px;
-}
-
-#local-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#local-banner p{
-    color: white;
-    line-height: 1.8;
 }
 
 #local-banner button{
@@ -453,18 +451,11 @@
     font-weight: bold;
 }
 
-#banner button:hover{
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: all 0.5s ease;
-    background-color: #c20829;
-}
 
-/* DIREITOS */
 
 #direitos{
     background-color: #1c1319;
-    text-align: center;
     padding: 20px 100px;
     color: white;
+    text-align: center;
 }
