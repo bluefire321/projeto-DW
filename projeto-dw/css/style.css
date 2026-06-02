@@ -243,7 +243,7 @@ header a:hover{
 }
 
 .services-pet{
-    background-color: rgb(231, 231, 231);
+    background-color: #9fceea84;
     border-radius: 8px;
     width: 350px;
     text-align: left;
@@ -257,11 +257,11 @@ header a:hover{
 #cards-services .services-pet #price{
     font-size: 25px;
     font-weight: bold;
-    color: #557f98;
+    color: #235876;
 }
 
 #cards-services .services-pet button{
-    background-color: #557f98;
+    background-color: #2d7198;
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 8px;
