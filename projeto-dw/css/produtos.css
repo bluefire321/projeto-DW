@@ -4,6 +4,7 @@
     border: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    color: #291b24;
 }
 
 /* HEADER */
@@ -158,14 +159,6 @@ header a:hover{
 
 #services h1{
     font-size: 45px;
-    margin-bottom: 20px;
-    color: #291b24;
-}
-
-#services p{
-    font-size: 20px;
-    margin-bottom: 25px;
-    color: #291b24;
 }
 
 #cards-services{
