@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header{
     background-color: #291b24;
     display: flex;
@@ -22,12 +24,6 @@ header{
 nav{
     display: flex;
     gap: 10px; 
-}
-
-hr{
-    margin-top: 10px;
-    border: solid 1px #f40b39;
-    background-color: #f40b39;
 }
 
 nav a{
@@ -145,6 +141,11 @@ header a:hover{
     display: flex;
 }
 
+hr{
+    margin-top: 10px;
+    border: solid 1px #f40b39;
+    background-color: #f40b39;
+}
 /* CAPA-RITMO */
 
 #capa-ritmo{
@@ -356,7 +357,7 @@ header a:hover{
     object-position: center;
 }
 
-/* BANNER */
+/* FOOTER */
 
 footer{
     background-color: #291b24;
