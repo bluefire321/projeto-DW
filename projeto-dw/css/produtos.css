@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-#header{
+/* HEADER */
+
+header{
     background-color: #291b24;
     display: flex;
     flex-direction: row;
@@ -19,21 +21,21 @@
     width: 150px;
 }
 
-#menu{
+nav{
     display: flex;
     gap: 10px; 
 }
 
-#menu a{
-    color: #f1efef;
+nav a{
+    color: #fff;
     text-decoration: none;
     font-size: 24px;
     padding: 5px 20px;
     border-bottom: solid 3px transparent;
 }
 
-#menu a:hover{
-    border-bottom: solid 3px #ce2245;
+header a:hover{
+    border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
 }
 
@@ -43,26 +45,28 @@
 }
 
 #search input{
-    background-color: #F40B39;
+    background-color: #f40b39;
     font-size: 18px;
     padding: 10px;
     color: #000;
     outline: none;
+    border-radius: 40px 0px 0px 40px;
 }
 
 #search input:focus{
-    box-shadow: #291b24 0px 6px 12px -2px, #291b24 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 #search span{
     background-color: #557f98;
-    color: #f1efef;
+    color: #fff;
     padding: 10px;
     cursor: pointer;
+    border-radius: 0px 40px 40px 0px;
 }
 
 #search span:hover{
-    box-shadow: hsl(202, 53%, 60%) 0px -23px 25px 0px inset, hsl(202, 53%, 60%) -36px 30px 0px inset, hsl(202, 53%, 60%) 0px -79px 40px 0px inset, hsl(202, 53%, 60%) 0px 2px 1px, hsl(202, 53%, 60%) 0px 4px 2px, hsl(202, 53%, 60%) 0px 8px 4px, hsl(202, 53%, 60%) 0px 16px 8px, hsl(202, 53%, 60%) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 #capa{
@@ -222,14 +226,33 @@
     object-position: center;
     border-radius: 10px;
 }
-/* BANNER */
 
-#banner{
+/* FOOTER */
+
+footer{
     background-color: #291b24;
     display: flex;
     padding: 50px 100px;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+footer h1{
+    color: #f40b39;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: white;
+    line-height: 1.8;
+}
+
+footer button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
+    background-color: #c20829;
 }
 
 #texto-banner{
@@ -251,15 +274,11 @@
     line-height: 1.8;
 }
 
-/* mudei aqui */
-
 #button-banner{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
-
-/* mudei aqui */
 
 #button-banner button{
     padding: 10px;
@@ -268,62 +287,29 @@
     display: flex;
 }
 
-#menu-banner{
+#footer-nav{
     display: flex;
     flex-direction: column;
 }
 
-#menu-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#menu-banner a{
+#footer-nav a{
     text-decoration: none;
     color: white;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 0px;
 }
 
-/* mudei aqui */
-
-#menu-banner a:hover{
+#footer-nav a:hover{
     border-bottom: solid 3px #f40b39;
     transition: border 0.7s ease;
     width: 80px;
-}
-
-#info-banner{
-    display: flex;
-    flex-direction: column;
-}
-
-#info-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#info-banner p{
-    line-height: 2.5;
-    color: white;
 }
 
 #local-banner{
     display: flex;
     flex-direction: column;
     padding: 0px 100px 0px 0px;
-}
-
-#local-banner h1{
-    color: #f40b39;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-#local-banner p{
-    color: white;
-    line-height: 1.8;
 }
 
 #local-banner button{
@@ -335,19 +321,11 @@
     font-weight: bold;
 }
 
-#banner button:hover{
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: all 0.5s ease;
-    background-color: #c20829;
-}
 
-
-/* DIREITOS */
 
 #direitos{
     background-color: #1c1319;
-    text-align: center;
     padding: 20px 100px;
     color: white;
-}   
+    text-align: center;
+}
