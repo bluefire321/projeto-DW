@@ -157,8 +157,10 @@ header a:hover{
     text-align: center;
 }
 
-#services h1{
+#services #services-text{
     font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 70px;
 }
 
 #cards-services{
@@ -180,6 +182,7 @@ header a:hover{
 #cards-services .services-pet h1{
     font-size: 20px;
     margin-top: 4%;
+    margin-bottom: 4%;
     
 }
 
@@ -187,6 +190,10 @@ header a:hover{
     font-size: 25px;
     font-weight: bold;
     color: #235876;
+}
+#cards-services .services-pet .preço{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #cards-services .services-pet button{
@@ -207,8 +214,7 @@ header a:hover{
 /* DIV */
 #image{
     overflow: hidden;
-    height: 280px;
-    
+    height: 400px;
 }
 
 /* A propria imagem */
@@ -217,7 +223,6 @@ header a:hover{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
 }
 
 /* FOOTER */
