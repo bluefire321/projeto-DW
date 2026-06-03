@@ -71,42 +71,53 @@ header a:hover{
 }
 
 /* CONTATOS */
-#contato{
+#talk{
     display: flex;
     flex-wrap: wrap;
+    background-color: #f40b39;
 }
-#talk{
+
+#talk #talk-text{
+    margin-left: 100px;
+    margin-top: 60px;
     width: 100%;
-    margin: 50px 100px;
-    height: auto;
+    
 }
 
 #talk h1{
     margin-bottom: 35px;
     font-size: 60px;
     width: 500px;
-    color: #291b24;
+    color: #f1efef;
 }
 #talk p{
     width: 580px;
     font-size: 20px;
     margin-bottom: 35px;
-    color: #291b24;
+    color: #f1efef;
 }
 #talk button{
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 15px;
-    background-color: #f40b39;
+    background-color: #291b24;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     outline: none;
-    color: #291b24;
+    color: #f1efef;
 }
 #talk button:hover{
+    background-color: #120c0f;
+    transition: all 0.5s ease;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: all 0.5s ease;
-    background-color: #c20829;
+}
+
+#contato{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #send{

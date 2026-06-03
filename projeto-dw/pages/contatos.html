@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="icon" href="../img/logo.png" type="image/png">
     <title>Contatos</title>
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
@@ -26,131 +28,132 @@
     </header>
 
     <main>
-    <!-- CONTATOS -->
-    <div id="contato">
+        <!-- CONTATOS -->
         <div id="talk">
-            <h1>Fale com a  FitNova!</h1>
-            <p>Tem dúvidas, sugestões ou quer fazer um pedido? Nossa equipe está pronta para ajudar você.</p>
-            <button>Entrar em contato!</button>
+            <div id="talk-text">
+                <h1>Fale com a FitNova!</h1>
+                <p>Tem dúvidas, sugestões ou quer fazer um pedido? Nossa equipe está pronta para ajudar você.</p>
+                <button>Entrar em contato!</button>
+            </div>
         </div>
-        <div id="send">
-            <h2>Envie sua mensagem</h2>
-            <p>Preencha o formulário abaixo e responderemos o mais rápido possível.</p>
-            <label for="name">Nome</label>
-            <input type="text" id="name" placeholder="Digite seu nome" name="nome" required>
-            
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required>
+        <div id="contato">
+            <div id="send">
+                <h2>Envie sua mensagem</h2>
+                <p>Preencha o formulário abaixo e responderemos o mais rápido possível.</p>
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Digite seu nome" name="nome" required>
 
-            <label for="assunto">Assunto</label>
-            <input type="text" id="assunto" placeholder="Digite o assunto" name="assunto" required>
-            
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem" required></textarea>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required>
 
-            <button id="botao">Enviar Mensagem</button>
-        </div>
-        <div id="boxs">
-            <div id="box1">
-                <span class="material-symbols-outlined">
-                    phone_enabled
-                </span>
-                <div class="texto">
-                    <h3>Telefone</h3>
-                    <p>(92) 994330848</p>
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" placeholder="Digite o assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem" required></textarea>
+
+                <button id="botao">Enviar Mensagem</button>
+            </div>
+            <div id="boxs">
+                <div id="box1">
+                    <span class="material-symbols-outlined">
+                        phone_enabled
+                    </span>
+                    <div class="texto">
+                        <h3>Telefone</h3>
+                        <p>(92) 994330848</p>
+                    </div>
+                </div>
+
+                <div id="box2">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    <div class="texto">
+                        <h3>E-mail</h3>
+                        <p>fitnova@gmail.com</p>
+                    </div>
+                </div>
+
+                <div id="box3">
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                    <div class="texto">
+                        <h3>Endereço</h3>
+                        <p>Rua Beatrice Portinari, 123 - República Manaus - AM</p>
+                    </div>
+                </div>
+
+                <div id="box4">
+                    <span class="material-symbols-outlined">
+                        schedule
+                    </span>
+                    <div class="texto">
+                        <h3>Horário</h3>
+                        <p>Segunda á Sexta: 9h às 18h</p>
+                    </div>
                 </div>
             </div>
-            
-            <div id="box2" >
-                <span class="material-symbols-outlined">
-                mail
-                </span>
-                <div class="texto">
-                    <h3>E-mail</h3>
-                    <p>fitnova@gmail.com</p>
+            <div id="locate">
+                <div id="words">
+                    <h2>Onde estamos</h2>
+                    <p>Venha conhecer nossa loja física e conhecer nossos produtos.</p>
+                    <button>Ver localização</button>
+                </div>
+                <div id="mapa">
+                    <iframe src="https://yandex.com/map-widget/v1/?ll=-59.982250%2C-3.133990&z=16.73" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
-            
-            <div id="box3">
-                <span class="material-symbols-outlined">
-                location_on
-                </span>
-                <div class="texto">
-                    <h3>Endereço</h3>
-                    <p>Rua Beatrice Portinari, 123 - República Manaus - AM</p>
+            <div id="duvida">
+                <div id="perguntas">
+                    <h3>Ainda ficou com dúvidas?</h3>
+                    <p>Fale com nossa equipe pelo WhatsApp.</p>
+                </div>
+                <button>WhatsApp</button>
+            </div>
+
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div id="texto-banner">
+                <h1>FitNova</h1>
+                <p>Vista sua força. Supere seus limites.</p>
+                <div id="button-banner">
+                    <button><span class="material-symbols-outlined">photo_camera</span></button>
+                    <button><span class="material-symbols-outlined">play_arrow</span></button>
+                    <button><span class="material-symbols-outlined">alternate_email</span></button>
                 </div>
             </div>
 
-            <div id="box4">
-                <span class="material-symbols-outlined">
-                schedule
-                </span>
-                <div class="texto">
-                    <h3>Horário</h3>
-                    <p>Segunda á Sexta: 9h às 18h</p>
-                </div>
-            </div>
-        </div>
-        <div id="locate">
-            <div id="words">
-                <h2>Onde estamos</h2>
-                <p>Venha conhecer nossa loja física e conhecer nossos produtos.</p>
-                <button>Ver localização</button>
-            </div>
-            <div id="mapa">
-                <iframe
-                    src="https://yandex.com/map-widget/v1/?ll=-59.982250%2C-3.133990&z=16.73"
-                    frameborder="0"
-                    allowfullscreen>
-               </iframe>
-</div>
-        </div>
-        <div id="duvida">
-            <div id="perguntas">
-                <h3>Ainda ficou com dúvidas?</h3>
-                <p>Fale com nossa equipe pelo WhatsApp.</p>
-            </div>
-            <button>WhatsApp</button>
-        </div>
-
-    </div>
-   <!-- FOOTER -->
-    <footer>
-        <div id="texto-banner">
-            <h1>FitNova</h1>
-            <p>Vista sua força. Supere seus limites.</p>
-            <div id="button-banner">
-                <button><span class="material-symbols-outlined">photo_camera</span></button>
-                <button><span class="material-symbols-outlined">play_arrow</span></button>
-                <button><span class="material-symbols-outlined">alternate_email</span></button>
-            </div>
-        </div>
-
-        <div id="menu-footer">
-            <h1>Navegação</h1>
-            <nav id="footer-nav">
-            <a href="../index.html">Início</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="contatos.html">Contatos</a>
-            </nav>
+            <div id="menu-footer">
+                <h1>Navegação</h1>
+                <nav id="footer-nav">
+                    <a href="../index.html">Início</a>
+                    <a href="produtos.html">Produtos</a>
+                    <a href="contatos.html">Contatos</a>
+                </nav>
             </div>
 
-        <div id="info-banner">
-            <h1>Atendimento</h1>
-            <p>(92) 994330848</p>
-            <p>fitnova@gmail.com</p>
-            <p>Segunda à Sexta: 9h às 18h</p>
-        </div>
+            <div id="info-banner">
+                <h1>Atendimento</h1>
+                <p>(92) 994330848</p>
+                <p>fitnova@gmail.com</p>
+                <p>Segunda à Sexta: 9h às 18h</p>
+            </div>
 
-        <div id="local-banner">
-            <h1>Endereço</h1>
-            <p>Rua Beatrice Portinari, 123 - República</p>
-            <p>Manaus - Amazonas</p>
-            <a href="contatos.html"><button>Ver no mapa</button></a>
-        </div>
+            <div id="local-banner">
+                <h1>Endereço</h1>
+                <p>Rua Beatrice Portinari, 123 - República</p>
+                <p>Manaus - Amazonas</p>
+                <a href="contatos.html"><button>Ver no mapa</button></a>
+            </div>
 
-    </footer>
+        </footer>
 
-    <p id="direitos">© 2026 FitNova - Todos os direitos reservados.</p>
+        <p id="direitos">© 2026 FitNova - Todos os direitos reservados.</p>
 </body>
+
 </html>
