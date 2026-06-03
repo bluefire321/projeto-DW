@@ -1,4 +1,6 @@
 # projeto-DW
+Turma: 2ºEM AB | Equipe 1
+
 **Participantes:**
 - Adriel Ermelindo Gouveia
 - Quezia Cristina De Sousa Santos
