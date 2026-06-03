@@ -1,3 +1,12 @@
 # projeto-DW
+**Participantes:**
+- Adriel Ermelindo Gouveia
+- Quezia Cristina De Sousa Santos
+- Miguel Pires Holanda
 
-Projeto para compor requisitado pelo Professor Gabriel da matéria de Desenvolvimento Web 1 na Fundação Matias Machline
+## Descrição do projeto
+Este projeto consiste em um website desenvolvido para atender aos requisitos da Prova 2 da disciplina de Desenvolvimento Web 1 da Fundação Matias Machline. A aplicação envolve um front-end em HTML e CSS
+
+### Ferramenta usadas para desenvolvimento:
+- Git/GitHub para versionamento
+- VSCode
