@@ -183,12 +183,6 @@ hr{
     background-color: #f40b39;
 }
 
-#capa-ritmo img{
-    border-radius: 8px;
-    width: 750px;
-}
-
-
 #historico{
     background-color: #f40b39;
     padding: 60px 100px;
@@ -256,7 +250,7 @@ hr{
     flex-wrap: wrap;
 }
 
-.services-pet{
+.services-produtos{
     background-color: #9fceea84;
     border-radius: 8px;
     width: 350px;
@@ -264,17 +258,17 @@ hr{
     padding: 10px;
 }
 
-#cards-services .services-pet h1{
+#cards-services .services-produtos h1{
     font-size: 20px;
 }
 
-#cards-services .services-pet #price{
+#cards-services .services-produtos #price{
     font-size: 25px;
     font-weight: bold;
     color: #235876;
 }
 
-#cards-services .services-pet button{
+#cards-services .services-produtos button{
     background-color: #2d7198;
     font-size: 20px;
     padding: 5px 20px;
@@ -282,7 +276,7 @@ hr{
     color: white;
 }
 
-#cards-services .services-pet button:hover{
+#cards-services .services-produtos button:hover{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
