@@ -51,6 +51,7 @@ header a:hover{
     color: #000;
     outline: none;
     border-radius: 40px 0px 0px 40px;
+    width: 100%;
 }
 
 #search input:focus{
