@@ -250,12 +250,20 @@ hr{
     flex-wrap: wrap;
 }
 
+.services-produtos:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all 0.5s ease;
+    border: solid 3px #f40b39;
+    transform: translateY(-10px);
+}
+
 .services-produtos{
     background-color: #9fceea84;
     border-radius: 8px;
     width: 350px;
     text-align: left;
     padding: 10px;
+    border: solid 3px transparent;
 }
 
 #cards-services .services-produtos h1{
@@ -343,6 +351,7 @@ hr{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transition: all 0.5s ease;
     border: solid 3px #f40b39;
+    transform: translateY(-10px);
 }
 
 #cards-equipe .image-equipe p{
