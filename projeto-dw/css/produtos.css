@@ -177,6 +177,14 @@ header a:hover{
     width: 350px;
     text-align: left;
     padding: 10px;
+    border: solid 3px transparent;
+}
+
+.services-pet:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all 0.5s ease;
+    border: solid 3px #f40b39;
+    transform: translateY(-10px);
 }
 
 #cards-services .services-pet h1{
